@@ -1,0 +1,23 @@
+{
+    "name": "Data summary",
+    "logoUrl": "https://www.jad.tools/logo-data-summary-viz.png",
+    "organization": "Webedia",
+    "organizationUrl": "https://www.webedia-group.com/",
+    "termsOfServiceUrl": "https://www.webedia-group.com/",
+    "supportUrl": "https://www.webedia-group.com/",
+    "packageUrl": "https://url",
+    "privacyPolicyUrl": "https://www.webedia-group.com/",
+    "description": "A simple table that provides an overview of data availability by date and dimension",
+    "devMode": true,
+    "components": [{
+        "id": "dataSummary",
+        "name": "Data Summary",
+        "iconUrl": "https://www.jad.tools/logo-data-summary-viz.png",
+        "description": "A simple table that provides an overview of data availability by date and dimension",
+        "resource": {
+            "js": "gs://data-summary-viz/prod/myViz.js",
+            "config": "gs://data-summary-viz/prod/myViz.json",
+            "css": "gs://data-summary-viz/prod/myViz.css"
+        }
+    }]
+}

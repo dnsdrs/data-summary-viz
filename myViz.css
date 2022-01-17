@@ -1,0 +1,29 @@
+.table {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    white-space: nowrap;
+}
+
+.cell>span {
+    padding: 5px 0px;
+}
+
+.firstRow {
+    writing-mode: vertical-rl;
+    height: 85px;
+    justify-content: flex-end;
+}

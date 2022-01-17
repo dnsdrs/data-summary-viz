@@ -1,0 +1,150 @@
+{
+    "data": [{
+        "id": "concepts",
+        "label": "Concepts",
+        "elements": [{
+                "id": "date",
+                "label": "Date",
+                "type": "DIMENSION",
+                "options": {
+                    "min": 1,
+                    "max": 1
+                }
+            },
+            {
+                "id": "dimension",
+                "label": "Dimension",
+                "type": "DIMENSION",
+                "options": {
+                    "min": 1,
+                    "max": 1
+                }
+            },
+            {
+                "id": "metric",
+                "label": "Metric",
+                "type": "METRIC",
+                "options": {
+                    "min": 1,
+                    "max": 1
+                }
+            }
+        ]
+    }],
+    "style": [{
+            "label": "Labels",
+            "id": "labels",
+            "elements": [{
+                    "type": "TEXTINPUT",
+                    "id": "textForMissingData",
+                    "label": "Text For Missing Data",
+                    "defaultValue": "❌"
+                },
+                {
+                    "type": "TEXTINPUT",
+                    "id": "textForAvailableData",
+                    "label": "Text For Available Data",
+                    "defaultValue": "✅"
+                },
+                {
+                    "type": "TEXTINPUT",
+                    "id": "textForZeroData",
+                    "label": "Text For Zero Data",
+                    "defaultValue": "0️⃣"
+                }
+            ]
+        },
+        {
+            "id": "textColors",
+            "label": "Text Colors",
+            "elements": [{
+                    "type": "FONT_COLOR",
+                    "id": "textColorForMissingData",
+                    "label": "Text Color For Missing Data",
+                    "defaultValue": "#54273A"
+                },
+                {
+                    "type": "FONT_COLOR",
+                    "id": "textColorForAvailableData",
+                    "label": "Text Color For Available DataColor",
+                    "defaultValue": "#2B3B35"
+                }, {
+                    "type": "FONT_COLOR",
+                    "id": "textColorForZeroData",
+                    "label": "Text Color For Zero Data",
+                    "defaultValue": "#5F4C07"
+                },
+                {
+                    "type": "FONT_COLOR",
+                    "id": "textColorForFirsts",
+                    "label": "Text Color For First Row And Column",
+                    "defaultValue": "#000000"
+                }
+            ]
+        },
+        {
+            "id": "bgColors",
+            "label": "Background Colors",
+            "elements": [{
+                    "type": "FILL_COLOR",
+                    "id": "bgColorForMissingData",
+                    "label": "Background Color For Missing Data",
+                    "defaultValue": "#D8ABBE"
+                },
+                {
+                    "type": "FILL_COLOR",
+                    "id": "bgColorForAvailableData",
+                    "label": "Background Color For Available DataColor",
+                    "defaultValue": "#B8CCC4"
+                },
+                {
+                    "type": "FILL_COLOR",
+                    "id": "bgColorForZeroData",
+                    "label": "Background Color For Zero Data",
+                    "defaultValue": "#F8E5A0"
+                },
+                {
+                    "type": "FILL_COLOR",
+                    "id": "bgColorForFirsts",
+                    "label": "Background Color For First Row and Column",
+                    "defaultValue": "#a7a7a7"
+                }
+            ]
+        },
+        {
+            "id": "values",
+            "label": "Other values",
+            "elements": [{
+                    "type": "TEXTINPUT",
+                    "id": "cellPadding",
+                    "label": "Cell interior padding",
+                    "defaultValue": "5px"
+                },
+                {
+                    "type": "TEXTINPUT",
+                    "id": "firstRowHeight",
+                    "label": "first Row Height",
+                    "defaultValue": "85px"
+                },
+                {
+                    "type": "TEXTINPUT",
+                    "id": "cellHeight",
+                    "label": "Cell Height",
+                    "defaultValue": "30px"
+                },
+                {
+                    "type": "FONT_FAMILY",
+                    "id": "fontFamily",
+                    "label": "Font Family",
+                    "defaultValue": "Montserrat"
+                },
+                {
+                    "type": "FONT_SIZE",
+                    "id": "fontSize",
+                    "label": "Font Size",
+                    "defaultValue": 10
+                }
+            ]
+        }
+    ]
+}
